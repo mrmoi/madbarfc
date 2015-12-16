@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Poiret+One|Lobster|Limelight|Sansita+One|Roboto+Slab:300|Montez);
 /*
 To customize the look and feel of Ionic, you can override the variables
 in ionic's _variables.scss file.
@@ -21,3 +22,23 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+
+
+// my colors
+$black: #212121 !default;
+$grey: #cfd8dc  !default;
+$orange: #ff5722 !default;
+$yellow: #ffea00 !default;
+$darkblue: #1a237e !default;
+$cyan: #18ffff !default;
+
+// home styles
+.madbarHeading {
+  font-family: 'Limelight', sans-serif;
+  font-size: 3.5em;
+  color: $darkblue;
+  text-shadow: 1px 1px 4px $cyan;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
