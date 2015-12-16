@@ -9772,6 +9772,10 @@ ion-content {
   color: #1a237e;
   font-weight: bolder; }
 
+.divider-top-header {
+  background-color: #1a237e;
+  color: white; }
+
 .divider-bottom {
   background-color: rgba(20, 20, 250, 0.1);
   font-family: 'Sansita One', sans-serif; }

@@ -57,6 +57,7 @@ $offwhite: #f5f5f5 !default;
   padding-top: 5px;
   padding-bottom: 5px;
 }
+// template heading
 .heading {
   font-family: 'Sansita One', sans-serif;
   font-size: 3.2em;
@@ -66,6 +67,7 @@ $offwhite: #f5f5f5 !default;
   padding-top: 5px;
   padding-bottom: 5px;
 }
+// fixtures calendar styles
 .divider-top {
   background-color: $lightblue;
   text-align: left;
@@ -73,6 +75,11 @@ $offwhite: #f5f5f5 !default;
   font-family: 'Roboto Slab', sans-serif;
   color: $darkblue;
   font-weight: bolder;
+}
+// for standings table
+.divider-top-header {
+  background-color: $darkblue;
+  color: white;
 }
 .divider-bottom {
   background-color: rgba(20, 20, 250, 0.1);
