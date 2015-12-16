@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Adrian Rodriguez",
+        "shortname": "adrian_rodriguez",
+        "position": "midfielder",
+        "bio" : "Here to kick ass!"
+    },
+    {
+        "id": 2,
+        "name": "Jesus Ibarra",
+        "shortname": "jesus_ibarra",
+        "position" : "defender",
+        "bio" : "Defense!"
+    },
+    {
+        "id": 3,
+        "name": "Juan Alcantar",
+        "shortname": "juan_alcantar",
+        "position" : "midfielder",
+        "bio" : "Moves galore"
+    },
+    {
+        "id": 4,
+        "name": "Moises Martinez",
+        "shortname": "moises_martinez",
+        "position" : "midfielder",
+        "bio" : "Here we go!"
+    },
+    {
+        "id": 5,
+        "name": "Jonatan Barajas",
+        "shortname": "jonatan_barajas",
+        "position" : "defender",
+        "bio" : "Peaceful ninja"
+    },
+    {
+        "id": 6,
+        "name": "Jorge Bustamante",
+        "shortname": "jorge_bustamante",
+        "position" : "forward",
+        "bio" : "The veteran"
+    },
+    {
+        "id" : 7,
+        "name": "Luis Marquez",
+        "shortname": "luis_marquez",
+        "position" : "forward",
+        "bio" : "The soccer chef"
+    }
+]

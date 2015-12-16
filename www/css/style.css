@@ -1,0 +1,20 @@
+/* Empty. Add your own CSS if you like */
+.homeTitle {
+  font-family: 'Lobster', sans-serif;
+  color: #f97b07;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 4.5em;
+}
+.logo {
+  width: 100px;
+  height: 130px;
+}
+.avatarPic {
+  width: 80px;
+  height: 80px;
+}
+table {
+  background-color: #04e6fc;
+}

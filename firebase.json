@@ -1,0 +1,9 @@
+{
+  "firebase": "madbarfc",
+  "public": "www",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
