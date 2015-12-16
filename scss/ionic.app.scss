@@ -19,11 +19,24 @@ $dark:                            #444 !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
+$dark: #212121 !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
-
-
-
+// background gradient
+ion-content {
+  /* IE10+ */
+background-image: -ms-linear-gradient(top right, #FCFCFC 0%, #747A77 100%);
+/* Mozilla Firefox */
+background-image: -moz-linear-gradient(top right, #FCFCFC 0%, #747A77 100%);
+/* Opera */
+background-image: -o-linear-gradient(top right, #FCFCFC 0%, #747A77 100%);
+/* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, #FCFCFC), color-stop(100, #747A77));
+/* Webkit (Chrome 11+) */
+background-image: -webkit-linear-gradient(top right, #FCFCFC 0%, #747A77 100%);
+/* W3C Markup */
+background-image: linear-gradient(to bottom left, #FCFCFC 0%, #747A77 100%);
+}
 // my colors
 $black: #212121 !default;
 $grey: #cfd8dc  !default;
@@ -31,14 +44,40 @@ $orange: #ff5722 !default;
 $yellow: #ffea00 !default;
 $darkblue: #1a237e !default;
 $cyan: #18ffff !default;
+$lightblue: #e3f2fd !default;
+$offwhite: #f5f5f5 !default;
 
-// home styles
+// madbar heading style
 .madbarHeading {
   font-family: 'Limelight', sans-serif;
-  font-size: 3.5em;
+  font-size: 3.9em;
   color: $darkblue;
   text-shadow: 1px 1px 4px $cyan;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.heading {
+  font-family: 'Sansita One', sans-serif;
+  font-size: 3.2em;
+  color: $darkblue;
+  text-shadow: 1px 1px 4px $cyan;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.divider-top {
+  background-color: $lightblue;
+  text-align: left;
+  padding-left: 10px;
+  font-family: 'Roboto Slab', sans-serif;
+  color: $darkblue;
+  font-weight: bolder;
+}
+.divider-bottom {
+  background-color: rgba(20, 20, 250, 0.1);
+  font-family: 'Sansita One', sans-serif;
+}
+a div {
+    color: $darkblue;
 }
