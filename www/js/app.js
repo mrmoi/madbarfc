@@ -58,6 +58,42 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+    .state('app.history', {
+      url: '/history',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/history.html'
+          //controller: 'PlaylistsCtrl'
+        }
+      }
+    })
+    .state('app.traininglocs', {
+      url: '/traininglocs',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/traininglocs.html'
+          //controller: 'PlaylistsCtrl'
+        }
+      }
+    })
+    .state('app.news', {
+      url: '/news',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/news.html'
+          //controller: 'PlaylistsCtrl'
+        }
+      }
+    })
+    .state('app.gallery', {
+      url: '/gallery',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/gallery.html'
+          //controller: 'PlaylistsCtrl'
+        }
+      }
+    })
 /*
   .state('app.single', {
     url: '/playlists/:playlistId',
