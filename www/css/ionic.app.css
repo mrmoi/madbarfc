@@ -9801,3 +9801,33 @@ a div {
 #map {
   width: 300px;
   height: 300px; }
+
+#map2 {
+  width: 300px;
+  height: 300px; }
+
+#map3 {
+  width: 300px;
+  height: 300px; }
+
+.mapContent h2 {
+  font-family: 'Sansita One', sans-serif;
+  color: #1a237e;
+  font-size: 1.2em; }
+
+.mapContent h3 {
+  font-family: 'Roboto Slab', sans-serif;
+  color: black;
+  font-weight: bold; }
+
+.mapContent p {
+  font-family: 'Roboto', monospace;
+  color: #1a237e;
+  font-size: 1.3em;
+  padding-top: 10px; }
+
+.item .mainP {
+  line-height: 1.5em;
+  font-family: 'Roboto Slab', monospace;
+  color: #1a237e;
+  font-size: 1.0em; }
