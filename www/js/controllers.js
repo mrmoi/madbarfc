@@ -34,7 +34,10 @@ angular.module('starter.controllers', [])
   };
 })
 
+
+
 .controller('MapCtrl', function($scope, $ionicLoading, $compile) {
+  
   function initialize() {
     var myLatLng = new google.maps.LatLng(33.467501, -112.056153);
     var mapOptions = {
@@ -107,7 +110,8 @@ angular.module('starter.controllers', [])
                             });
                             $scope.map = map;
           }
-          google.maps.event.addDomListener(window, 'load', initialize);
+              // load event
+              google.maps.event.addDomListener(window, 'load', initialize);
           })
 
   // player list controller
