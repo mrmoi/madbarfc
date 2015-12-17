@@ -9798,6 +9798,6 @@ a div {
     color: #e3f2fd;
     font-size: 1.0em; }
 
-#googleMap {
-  height: 100%;
-  width: 100%; }
+#map {
+  height: 300px;
+  width: 300px; }
