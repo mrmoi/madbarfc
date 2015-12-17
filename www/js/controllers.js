@@ -34,12 +34,38 @@ angular.module('starter.controllers', [])
   };
 })
 
+.controller('MapCtrl', function($scope, $ionicLoading, $compile) {
+  function initialize() {
+    var myLatLng = new google.maps.LatLng(33, -112);
+    var mapOptions = {
+            center: myLatLng,
+            zoom: 15,
+            mapTypeId: google.maps.MapTypeId.SATELLITE
+    };
+    var map = new google.maps.Map(document.getElementById("map"),
+        mapOptions);
+        var contentString = "<div><a ng-click='clickTest()'>MadBar FC Traning Location</a></div>";
+            var compiled = $compile(contentString)($scope);
+            var infowindow = new google.maps.InfoWindow({
+              content: compiled[0]
+            });
+            var marker = new google.maps.Marker({
+              position: myLatlng,
+              map: map,
+              title: 'Coronado Park, Phoenix AZ'
+            });
+            google.maps.event.addListener(marker, 'click', function() {
+              infowindow.open(map,marker);
+            });
+            $scope.map = map;
+          }
+          google.maps.event.addDomListener(window, 'load', initialize);
+          })
+
   // player list controller
 .controller('PlayersController', function($scope, $http) {
   $http.get('team.json').success(function(data) {
     $scope.players = data;
   });
-})
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
 });
