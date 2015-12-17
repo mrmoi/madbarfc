@@ -36,10 +36,10 @@ angular.module('starter.controllers', [])
 
 .controller('MapCtrl', function($scope, $ionicLoading, $compile) {
   function initialize() {
-    var myLatLng = new google.maps.LatLng(33, -112);
+    var myLatLng = new google.maps.LatLng(33.467501, -112.056153);
     var mapOptions = {
             center: myLatLng,
-            zoom: 15,
+            zoom: 17,
             mapTypeId: google.maps.MapTypeId.SATELLITE
     };
     var map = new google.maps.Map(document.getElementById("map"),
@@ -50,7 +50,7 @@ angular.module('starter.controllers', [])
               content: compiled[0]
             });
             var marker = new google.maps.Marker({
-              position: myLatlng,
+              position: myLatLng,
               map: map,
               title: 'Coronado Park, Phoenix AZ'
             });
