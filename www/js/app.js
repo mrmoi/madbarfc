@@ -72,7 +72,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent': {
           templateUrl: 'templates/traininglocs.html',
-          controller: 'MapCtrl'
+          controller: 'MapController'
         }
       }
     })

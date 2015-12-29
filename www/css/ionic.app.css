@@ -9811,6 +9811,9 @@ a div {
   width: 250px;
   height: 250px; }
 
+.scroll {
+  height: 100%; }
+
 .mapContent h2 {
   font-family: 'Sansita One', sans-serif;
   color: #1a237e;

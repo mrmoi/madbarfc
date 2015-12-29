@@ -34,8 +34,7 @@ angular.module('starter.controllers', [])
   };
 })
 
-
-
+/*
 .controller('MapCtrl', function($scope, $ionicLoading, $compile) {
 
   function initialize() {
@@ -65,6 +64,31 @@ angular.module('starter.controllers', [])
               // load event
               google.maps.event.addDomListener(window, 'load', initialize);
           })
+*/
+
+.controller('MapController', function($scope, $ionicLoading) {
+    google.maps.event.addDomListener(window, 'load', function(){
+      var myLatLng = new google.maps.LatLng(37.3000, -120.4833);
+
+      var mapOptions = {
+          center: myLatLng,
+          zoom: 18,
+          mapTypeId: google.maps.MapTypeId.HYBRID
+      };
+      var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+      /*navigator.geolocation.getCurrentPosition(function(pos) {
+        map.setCenter(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
+        var myLocation = new google.maps.Marker({
+            position: new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude),
+            map: map,
+            title: "My Location"
+          });
+      });*/
+  $scope.map = map;
+  });
+
+})
 
   // player list controller
 .controller('PlayersController', function($scope, $http) {
