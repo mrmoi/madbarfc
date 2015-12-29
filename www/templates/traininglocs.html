@@ -1,18 +1,7 @@
 <ion-view view-title="Training Facilities">
-  <ion-content>
-    <!-- attempt to center items -->
-    <!-- content centered in a 90% column -->
 
-      <h1 class="heading">MadBar grounds</h1>
-
-    <div class="row">
-      <div class="col"></div>
-      <div class="col"></div>
-        <div class="col col-80">
-          <!-- content -->
+          <!-- content
           <div class="mapContent">
-
-            <h2>Training Locations</h2>
             <h3>Coronado Park</h3>
                 <div id="map" ng-controller="MapCtrl">
                 </div>
@@ -27,12 +16,24 @@
                 <div id="map3" ng-controller="MapCtrl">
                 </div>
             <p>4720 W Sweetwater Ave<br>Glendale, AZ 85304</p>
+          -->
 
-        </div>
-        </div>
-        <div class="col"></div>
-      <div class="col"></div>
-    </div>
+  <ion-tabs class="tabs-dark tabs-icon-top">
 
-  </ion-content>
+  <ion-tab title="Location 1" icon-on="ion-ios-location" icon-off="ion-ios-location-outline">
+    <!-- Tab 1 content -->
+    <div id="map" ng-controller="MapCtrl"></div>
+  </ion-tab>
+
+  <ion-tab title="Location 2" icon-on="ion-ios-location" icon-off="ion-ios-location-outline">
+    <!-- Tab 2 content -->
+    <!--<div id="map2" ng-controller="MapCtrl"></div>-->
+  </ion-tab>
+
+  <ion-tab title="Location 3" icon-on="ion-ios-location" icon-off="ion-ios-location-outline">
+    <!-- Tab 3 content -->
+    <!--<div id="map3" ng-controller="MapCtrl"></div>-->
+  </ion-tab>
+
+</ion-tabs>
 </ion-view>

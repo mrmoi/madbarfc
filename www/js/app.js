@@ -71,8 +71,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: '/traininglocs',
       views: {
         'menuContent': {
-          templateUrl: 'templates/traininglocs.html'
-          //controller: 'MapCtrl'
+          templateUrl: 'templates/traininglocs.html',
+          controller: 'MapCtrl'
         }
       }
     })
