@@ -9777,18 +9777,19 @@ ion-content {
   color: white; }
 
 .divider-bottom {
-  background-color: rgba(20, 20, 250, 0.1);
+  background-color: rgba(20, 20, 50, 0.2);
   font-family: 'Sansita One', sans-serif; }
 
 a div {
   color: #1a237e; }
 
 .playersSection {
-  background-color: rgba(20, 20, 250, 0.1); }
+  background-color: rgba(20, 20, 50, 0.2); }
   .playersSection h2 {
     font-family: 'Sansita One', sans-serif;
     color: #1a237e;
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    padding-top: 20px; }
   .playersSection h3 {
     font-family: 'Roboto Slab', sans-serif;
     color: black;

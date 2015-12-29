@@ -82,7 +82,7 @@ $offwhite: #f5f5f5 !default;
   color: white;
 }
 .divider-bottom {
-  background-color: rgba(20, 20, 250, 0.1);
+  background-color: rgba(20, 20, 50, 0.2);
   font-family: 'Sansita One', sans-serif;
 }
 a div {
@@ -90,12 +90,13 @@ a div {
 }
 // players sytles
 .playersSection {
-  background-color: rgba(20, 20, 250, 0.1);
+  background-color: rgba(20, 20, 50, 0.2);
 
   h2 {
     font-family: 'Sansita One', sans-serif;
     color: $darkblue;
     font-size: 1.2em;
+    padding-top: 20px;
   }
   h3 {
     font-family: 'Roboto Slab', sans-serif;
