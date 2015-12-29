@@ -34,62 +34,39 @@ angular.module('starter.controllers', [])
   };
 })
 
+.controller("Example", function($scope, $interval) {
+                $scope.map = {
+                        center: {
+                                latitude: 56.162939,
+                                longitude: 10.203921
+                        },
+                        zoom: 8
+                };
+})
 /*
-.controller('MapCtrl', function($scope, $ionicLoading, $compile) {
-
-  function initialize() {
-    var myLatLng = new google.maps.LatLng(33.467501, -112.056153);
-    var mapOptions = {
-            center: myLatLng,
-            zoom: 17,
-            mapTypeId: google.maps.MapTypeId.HYBRID
-    };
-    var map = new google.maps.Map(document.getElementById("map"),
-        mapOptions);
-        var contentString = "<div><a ng-click='clickTest()'>MadBar FC - Coronado Park <br>Traning Location</a></div>";
-            var compiled = $compile(contentString)($scope);
-            var infowindow = new google.maps.InfoWindow({
-              content: compiled[0]
-            });
-            var marker = new google.maps.Marker({
-              position: myLatLng,
-              map: map,
-              title: 'Coronado Park, Phoenix AZ'
-            });
-            google.maps.event.addListener(marker, 'click', function() {
-              infowindow.open(map,marker);
-            });
-            $scope.map = map;
-          }
-              // load event
-              google.maps.event.addDomListener(window, 'load', initialize);
-          })
-*/
-
-.controller('MapController', function($scope, $ionicLoading) {
+.controller('MapCtrl', function($scope, $ionicLoading) {
     google.maps.event.addDomListener(window, 'load', function(){
-      var myLatLng = new google.maps.LatLng(37.3000, -120.4833);
 
+      var myLatLng = new google.maps.LatLng(33.467501, -112.056153);
       var mapOptions = {
           center: myLatLng,
           zoom: 18,
           mapTypeId: google.maps.MapTypeId.HYBRID
       };
       var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+      var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Coronado Park, Phoenix AZ'
+      });
+      google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map,marker);
+      });
 
-      /*navigator.geolocation.getCurrentPosition(function(pos) {
-        map.setCenter(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
-        var myLocation = new google.maps.Marker({
-            position: new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude),
-            map: map,
-            title: "My Location"
-          });
-      });*/
   $scope.map = map;
   });
-
 })
-
+*/
   // player list controller
 .controller('PlayersController', function($scope, $http) {
   $http.get('team.json').success(function(data) {
