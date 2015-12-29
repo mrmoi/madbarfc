@@ -1,29 +1,17 @@
 <ion-view view-title="Players">
   <ion-content>
-    <h1 class="heading">MadBar Stars</h1>
-
-    <div class="row">
-      <div class="col"></div>
-      <div class="col col-90">
-            <!-- CONTENT -->
-
     <label class="item item-input divider-top">
       <i class="icon ion-search placeholder-icon"></i>
       <input ng-model="query" type="search" placeholder="Search">
     </label>
 
     <ion-list ng-controller="PlayersController">
-    <a ng-repeat="player in players | filter: query" class="item item-avatar playersSection">
-      <img class="avatarPic" ng-src="../img/{{ player.shortname }}.png" alt="{{ player.name }}" />
+    <a ng-repeat="player in players | filter: query" class="item item-thumbnail-left playersSection">
+      <img ng-src="../img/{{ player.shortname }}.jpeg" alt="{{ player.name }}" />
       <h2>{{ player.name | uppercase }}</h2>
       <h3>Position: <strong>{{ player.position }}</strong></h3>
       <p>{{ player.bio }}</p>
     </a>
   </ion-list>
-
-</div>
-<div class="col"></div>
-</div>
-
   </ion-content>
 </ion-view>
