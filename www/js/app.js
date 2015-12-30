@@ -101,8 +101,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: '/standings',
       views: {
         'menuContent': {
-          templateUrl: 'templates/standings.html'
-          //controller: 'PlaylistCtrl'
+          templateUrl: 'templates/standings.html',
+          controller: 'StandingsController'
         }
       }
   });

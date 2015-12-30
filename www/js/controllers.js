@@ -47,5 +47,12 @@ angular.module('starter.controllers', [])
   $http.get('fixtures.json').success(function(data) {
     $scope.fixtures = data;
   });
+})
+
+// Standings controller
+.controller('StandingsController', function($scope, $http) {
+    $http.get('standings.json').success(function(data) {
+      $scope.standings = data;
+});
 
 });
