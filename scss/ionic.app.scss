@@ -153,7 +153,10 @@ a div {
 }
 }
 
-.angular-google-map-container {
-        height: 100%;
-        width: 100%;
+.googleMap {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

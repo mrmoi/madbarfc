@@ -1,4 +1,4 @@
-angular.module('starter', ['ionic', 'starter.controllers','uiGmapgoogle-maps'])
+angular.module('starter', ['ionic', 'starter.controllers'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -63,8 +63,8 @@ angular.module('starter', ['ionic', 'starter.controllers','uiGmapgoogle-maps'])
       url: '/traininglocs',
       views: {
         'menuContent': {
-          templateUrl: 'templates/traininglocs.html',
-          controller: 'Example'
+          templateUrl: 'templates/traininglocs.html'
+          //controller: 'Example'
         }
       }
     })

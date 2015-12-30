@@ -1,3 +1,26 @@
-<ion-view view-title="Training Facilities">
-  <ui-gmap-google-map center='map.center' zoom='map.zoom'></ui-gmap-google-map>
+<ion-view view-title="Training/Game Locations">
+  <ion-tabs class="tabs-dark tabs-icon-top">
+
+  <ion-tab title="Coronado" icon-on="ion-ios-flag" icon-off="ion-ios-flag-outline">
+    <iframe class="googleMap"
+            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJNdJwyQwSK4cRxFDKixeNPF8&key=AIzaSyC22CP13mZYsggw7AdOrHxwz11_t5Ji0j0" allowfullscreen></iframe>
+  </ion-tab>
+
+  <ion-tab title="ASU West" icon-on="ion-ios-flag" icon-off="ion-ios-flag-outline">
+    <!-- Tab 2 content -->
+    <iframe class="googleMap"
+            src="https://www.google.com/maps/embed/v1/place?q=asu%20west&key=AIzaSyC22CP13mZYsggw7AdOrHxwz11_t5Ji0j0" allowfullscreen></iframe>
+  </ion-tab>
+
+  <ion-tab title="Cesar Chavez" icon-on="ion-ios-flag" icon-off="ion-ios-flag-outline">
+    <iframe class="googleMap"
+            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJdXfmzTQXK4cRKTDggO4PwWc&key=AIzaSyC22CP13mZYsggw7AdOrHxwz11_t5Ji0j0" allowfullscreen></iframe>
+  </ion-tab>
+
+  <ion-tab title="Sunnyslope HS" icon-on="ion-ios-flag" icon-off="ion-ios-flag-outline">
+    <iframe class="googleMap"
+            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJSSnwCgttK4cRgymWOOhtr2Q&key=AIzaSyC22CP13mZYsggw7AdOrHxwz11_t5Ji0j0" allowfullscreen></iframe>
+  </ion-tab>
+
+</ion-tabs>
 </ion-view>
