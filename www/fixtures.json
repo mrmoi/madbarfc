@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Week 1",
+        "opponent": "Thunderbird",
+        "time": "8:40 PM",
+        "date" : "DEC 1"
+    },
+    {
+        "id": 2,
+        "name": "Week 2",
+        "opponent": "FC Savages",
+        "time" : "7:50 PM",
+        "date" : "DEC 8"
+    },
+    {
+        "id": 3,
+        "name": "Week 3",
+        "opponent": "West Valley FC",
+        "time" : "8:40 PM",
+        "date" : "DEC 15"
+    },
+    {
+        "id": 4,
+        "name": "Week 4",
+        "opponent": "Panic FC",
+        "time" : "7:50 PM",
+        "date" : "JAN 5"
+    },
+    {
+        "id": 5,
+        "name": "Week 5",
+        "opponent": "Illmatic FC",
+        "time" : "8:40 PM",
+        "date" : "JAN 12"
+    },
+    {
+        "id": 6,
+        "name": "Week 6",
+        "opponent": "TBA",
+        "time" : "TBA",
+        "date" : "TBA"
+    },
+    {
+        "id" : 7,
+        "name": "Week 7",
+        "opponent": "TBA",
+        "time" : "TBA",
+        "date" : "TBA"
+    }
+]

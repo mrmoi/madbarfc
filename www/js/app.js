@@ -45,8 +45,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: '/fixtures',
       views: {
         'menuContent': {
-          templateUrl: 'templates/fixtures.html'
-          //controller: 'PlaylistsCtrl'
+          templateUrl: 'templates/fixtures.html',
+          controller: 'FixturesController'
         }
       }
     })

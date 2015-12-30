@@ -1,7 +1,7 @@
 <ion-view view-title="Players">
   <ion-content>
     <div class="list list-inset">
-    <label class="item item-input divider-top">
+    <label class="item item-input searchItem">
       <i class="icon ion-search placeholder-icon"></i>
       <input ng-model="query" type="search" placeholder="Search">
     </label>
@@ -10,7 +10,7 @@
     <a ng-repeat="player in players | filter: query" class="item item-thumbnail-left playersSection">
       <img ng-src="../img/{{ player.shortname }}.jpeg" alt="{{ player.name }}" />
       <h2>{{ player.name | uppercase }}</h2>
-      <h3>POSITION: {{ player.position | uppercase }}</h3>
+      <h3>{{ player.position | uppercase }}</h3>
     </a>
   </ion-list>
   </div>

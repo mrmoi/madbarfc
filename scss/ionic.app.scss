@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto|Poiret+One|Lobster|Limelight|Sansita+One|Roboto+Slab:300|Montez);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700|Kanit:400,800);
 /*
 To customize the look and feel of Ionic, you can override the variables
 in ionic's _variables.scss file.
@@ -19,23 +20,19 @@ $dark:                            #444 !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
-$dark: #212121 !default;
+$dark: #002E40 !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 // background gradient
 ion-content {
-  /* IE10+ */
-background-image: -ms-linear-gradient(top right, #FCFCFC 0%, #747A77 100%);
-/* Mozilla Firefox */
-background-image: -moz-linear-gradient(top right, #FCFCFC 0%, #747A77 100%);
-/* Opera */
-background-image: -o-linear-gradient(top right, #FCFCFC 0%, #747A77 100%);
-/* Webkit (Safari/Chrome 10) */
-background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, #FCFCFC), color-stop(100, #747A77));
-/* Webkit (Chrome 11+) */
-background-image: -webkit-linear-gradient(top right, #FCFCFC 0%, #747A77 100%);
-/* W3C Markup */
-background-image: linear-gradient(to bottom left, #FCFCFC 0%, #747A77 100%);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f6f8+17,b5c6d0+38,a8b4bf+55,a8b4bf+57,b5c6d0+72,e0eff9+94 */
+background: #f2f6f8; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #f2f6f8 17%, #b5c6d0 38%, #a8b4bf 55%, #a8b4bf 57%, #b5c6d0 72%, #e0eff9 94%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #f2f6f8 17%,#b5c6d0 38%,#a8b4bf 55%,#a8b4bf 57%,#b5c6d0 72%,#e0eff9 94%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #f2f6f8 17%,#b5c6d0 38%,#a8b4bf 55%,#a8b4bf 57%,#b5c6d0 72%,#e0eff9 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
 }
 // my colors
 $black: #212121 !default;
@@ -47,17 +44,120 @@ $cyan: #18ffff !default;
 $lightblue: #e3f2fd !default;
 $offwhite: #f5f5f5 !default;
 
+// new colors
+$navy: #002E40 !default;
+$teal: #2A5769 !default;
+$background: #D0DBD5 !default;
+$canary: #FABE4B !default;
+$bird: #FA9600 !default;
+
+// Home page styles
 // madbar heading style
 .madbarHeading {
-  font-family: 'Limelight', sans-serif;
-  font-size: 3.9em;
+  font-family: 'Kanit', sans-serif;
+  font-size: 4.7em;
   color: $darkblue;
-  text-shadow: 1px 1px 4px $cyan;
+  font-weight: 900;
+  text-shadow: 1px 1px 6px $cyan;
   text-align: center;
+}
+// home page card
+.homeBox {
+  background-color: rgba(22, 189, 233, 0.2);
+  text-align: left;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: bolder;
+}
+// home page card paragraph
+.item {
+
+.mainP {
+    line-height: 1.7em;
+    font-family: 'Roboto Slab', monospace;
+    color: $dark;
+    font-size: 1.0em;
+}
+}
+.homeCardTitle {
+  color: $bird;
+  font-family: 'Lobster', sans-serif;
+  font-size: 1.6em;
+  font-weight: 400;
+}
+// players page
+// players sytles
+.playersSection {
+  background-color: rgba(12, 179, 243, 0.5);
+
+  h2 {
+    font-family: 'Vollkorn', sans-serif;
+    color: $navy;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  h3 {
+    font-family: 'Kanit', sans-serif;
+    padding-top: 10px;
+    color: $orange;
+    font-weight: bold;
+    font-size: 1.0em;
+  }
+  p {
+    font-family: 'Roboto', monospace;
+    color: $lightblue;
+    font-size: 1.0em;
+  }
+}
+.searchItem {
+  background-color: $grey;
+}
+// FIXTURES STYLES
+// fixtures calendar styles
+.divider-fixture-top {
+  background-color: $navy;
+  text-align: left;
+  padding-left: 10px;
+  font-family: 'Roboto Slab', sans-serif;
+  color: $offwhite;
+  font-weight: bolder;
+}
+.divider-fixture-bottom {
+  background-color: rgba(12, 179, 243, 0.4);
+  font-family: 'Sansita One', sans-serif;
+}
+.fixOpponent {
+  font-size: 1.2em;
+  font-family: 'Vollkorn', sans-serif;
+  font-weight: bolder;
+  color: $orange;
+}
+// STANDINGS STYLES
+// for standings table
+.divider-top-header {
+  background-color: $navy;
+  color: $orange;
+  font-family: 'Vollkorn', sans-serif;
+  font-weight: bolder;
+  font-size: 1.3em;
   padding-top: 10px;
   padding-bottom: 5px;
 }
-// template heading
+.divider-bottom {
+  background-color: rgba(12, 179, 243, 0.4);
+  font-family: 'Sansita One', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+// EXTRAS
 .heading {
   font-family: 'Sansita One', sans-serif;
   font-size: 3.2em;
@@ -67,92 +167,10 @@ $offwhite: #f5f5f5 !default;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-// fixtures calendar styles
-.divider-top {
-  background-color: $lightblue;
-  text-align: left;
-  padding-left: 10px;
-  font-family: 'Roboto Slab', sans-serif;
-  color: $darkblue;
-  font-weight: bolder;
-}
-// for standings table
-.divider-top-header {
-  background-color: $darkblue;
-  color: white;
-}
-.divider-bottom {
-  background-color: rgba(20, 20, 50, 0.2);
-  font-family: 'Sansita One', sans-serif;
-}
 a div {
     color: $darkblue;
 }
-// players sytles
-.playersSection {
-  background-color: rgba(20, 20, 50, 0.2);
-
-  h2 {
-    font-family: 'Sansita One', sans-serif;
-    color: $darkblue;
-    font-size: 1.2em;
-    padding-top: 20px;
-  }
-  h3 {
-    font-family: 'Roboto Slab', sans-serif;
-    color: black;
-    font-weight: bold;
-  }
-  p {
-    font-family: 'Roboto', monospace;
-    color: $lightblue;
-    font-size: 1.0em;
-  }
-}
-#map {
-  width: 100%;
-  height: 100%;
-}
-#map2 {
-  width: 250px;
-  height: 250px;
-}
-#map3 {
-  width: 250px;
-  height: 250px;
-}
-.scroll {
-  height: 100%;
-}
-.mapContent {
-
-  h2 {
-    font-family: 'Sansita One', sans-serif;
-    color: $darkblue;
-    font-size: 1.2em;
-  }
-  h3 {
-    font-family: 'Roboto Slab', sans-serif;
-    color: black;
-    font-weight: bold;
-  }
-  p {
-    font-family: 'Roboto', monospace;
-    color: $darkblue;
-    font-size: 1.3em;
-    padding-top: 10px;
-  }
-}
-.item {
-
-.mainP {
-    line-height: 1.5em;
-    font-family: 'Roboto Slab', monospace;
-    color: $darkblue;
-    font-size: 1.0em;
-}
-}
-
+// MAPS PAGE
 .googleMap {
   height: 100%;
   width: 100%;

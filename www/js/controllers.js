@@ -40,4 +40,12 @@ angular.module('starter.controllers', [])
     $scope.players = data;
   });
 
+})
+
+// fixtures controller
+.controller('FixturesController', function($scope, $http) {
+  $http.get('fixtures.json').success(function(data) {
+    $scope.fixtures = data;
+  });
+
 });
