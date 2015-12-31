@@ -35,9 +35,10 @@ angular.module('starter.controllers', [])
 })
 
 // player list controller
-.controller('PlayersController', function($scope, $http) {
+.controller('PlayersController', function($scope, $http, $stateParams) {
     $http.get('team.json').success(function(data) {
       $scope.players = data;
+
     });
 })
 
@@ -55,10 +56,11 @@ angular.module('starter.controllers', [])
     });
 })
 // PROFILE CONTROLLER
-.controller('ProfileController', function($scope, $http, $routeParams) {
+.controller('ProfileController', function($scope, $http, $stateParams) {
     $http.get('team.json').success(function(data) {
-    $scope.players = data;
-    $scope.whichItem = $routeParams.itemId;
+    //$scope.players = data;
+    //$scope.whichItem = $stateParams.playerId;
+
 
 });
 });

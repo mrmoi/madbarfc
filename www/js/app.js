@@ -34,16 +34,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
-    .state('profile/:itemId', {
-      url: '/profile',
-      views: {
+  .state('app.players.profile', {
+    url: '/players/profile',
+    views: {
       'menuContent': {
-          templateUrl: 'templates/profile.html',
-          controller: 'ProfileController'
-        }
+        templateUrl: '../templates/profile.html',
+        controller: 'ProfileController'
       }
-    })
-
+    }
+  })
 
   .state('app.home', {
       url: '/home',
@@ -53,6 +52,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+
     .state('app.fixtures', {
       url: '/fixtures',
       views: {
@@ -62,6 +62,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+
     .state('app.history', {
       url: '/history',
       views: {
@@ -71,6 +72,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+
     .state('app.traininglocs', {
       url: '/traininglocs',
       views: {
@@ -80,6 +82,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+
     .state('app.news', {
       url: '/news',
       views: {
@@ -89,6 +92,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+
     .state('app.gallery', {
       url: '/gallery',
       views: {
@@ -108,7 +112,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
 */
-
     .state('app.standings', {
       url: '/standings',
       views: {
@@ -118,6 +121,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
   });
+
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/home');
 });
