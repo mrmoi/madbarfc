@@ -112,6 +112,27 @@ $bird: #FA9600 !default;
 .searchItem {
   background-color: $grey;
 }
+.popup {
+  width: 500px;
+  height: 400px;
+  background-color: $bird;
+  color: $bird;
+}
+.popup button {
+  top: 290px;
+  z-index: 1;
+}
+.popupContent {
+  background-color: $offwhite;
+}
+.inside {
+
+}
+.playerCard {
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+}
 // FIXTURES STYLES
 // fixtures calendar styles
 .divider-fixture-top {

@@ -7,7 +7,7 @@
     </label>
 
     <ion-list ng-controller="PlayersController">
-    <a href="playermodal.html" ng-repeat="player in players | filter: query" class="item item-thumbnail-left playersSection">
+    <a ng-click="showPopup()" ng-repeat="player in players | filter: query" class="item item-thumbnail-left playersSection">
       <img ng-src="../img/{{ player.shortname }}.jpeg" alt="{{ player.name }}" />
       <h2>{{ player.name | uppercase }}</h2>
       <h3>{{ player.position | uppercase }}</h3>

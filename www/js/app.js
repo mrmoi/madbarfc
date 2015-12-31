@@ -28,7 +28,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     url: '/players',
     views: {
       'menuContent': {
-        templateUrl: 'templates/players.html'
+        templateUrl: 'templates/players.html',
+        controller: 'PlayersController'
       }
     }
   })

@@ -9794,6 +9794,24 @@ ion-content {
 .searchItem {
   background-color: #cfd8dc; }
 
+.popup {
+  width: 500px;
+  height: 400px;
+  background-color: #FA9600;
+  color: #FA9600; }
+
+.popup button {
+  top: 290px;
+  z-index: 1; }
+
+.popupContent {
+  background-color: #f5f5f5; }
+
+.playerCard {
+  height: 400px;
+  width: 400px;
+  margin: 0 auto; }
+
 .divider-fixture-top {
   background-color: #002E40;
   text-align: left;
