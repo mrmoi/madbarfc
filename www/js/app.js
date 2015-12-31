@@ -34,6 +34,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+    .state('profile/:itemId', {
+      url: '/profile',
+      views: {
+      'menuContent': {
+          templateUrl: 'templates/profile.html',
+          controller: 'ProfileController'
+        }
+      }
+    })
+
+
   .state('app.home', {
       url: '/home',
       views: {

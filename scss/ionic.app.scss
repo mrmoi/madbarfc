@@ -94,11 +94,10 @@ $bird: #FA9600 !default;
     color: $navy;
     font-size: 1.1em;
     font-weight: bold;
-    padding-top: 20px;
   }
   h3 {
     font-family: 'Kanit', sans-serif;
-    padding-top: 10px;
+    padding-top: 5px;
     color: $orange;
     font-weight: bold;
     font-size: 1.0em;
@@ -133,6 +132,8 @@ $bird: #FA9600 !default;
   width: 400px;
   margin: 0 auto;
 }
+
+
 // FIXTURES STYLES
 // fixtures calendar styles
 .divider-fixture-top {

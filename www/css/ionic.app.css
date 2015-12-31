@@ -9778,11 +9778,10 @@ ion-content {
     font-family: 'Vollkorn', sans-serif;
     color: #002E40;
     font-size: 1.1em;
-    font-weight: bold;
-    padding-top: 20px; }
+    font-weight: bold; }
   .playersSection h3 {
     font-family: 'Kanit', sans-serif;
-    padding-top: 10px;
+    padding-top: 5px;
     color: #ff5722;
     font-weight: bold;
     font-size: 1.0em; }
