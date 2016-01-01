@@ -58,8 +58,8 @@ angular.module('starter.controllers', [])
 // PROFILE CONTROLLER
 .controller('ProfileController', function($scope, $http, $stateParams) {
     $http.get('team.json').success(function(data) {
-    //$scope.players = data;
-    //$scope.whichItem = $stateParams.playerId;
+    $scope.players = data;
+    $scope.whichItem = $stateParams.playerId;
 
 
 });

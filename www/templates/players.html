@@ -7,7 +7,7 @@
     </label>
 
     <ion-list ng-controller="PlayersController">
-    <a ng-href="#/app/profile" ng-repeat="player in players | filter: query" class="item item-avatar-left playersSection">
+    <a ng-href="#/app/profile/{{players.indexOf(player)}}" ng-repeat="player in players | filter: query" class="item item-avatar-left playersSection">
       <img ng-src="../img/{{ player.shortname }}.jpeg" alt="{{ player.name }}" />
       <h2>{{ player.name | uppercase }}</h2>
       <h3>{{ player.position | uppercase }}</h3>

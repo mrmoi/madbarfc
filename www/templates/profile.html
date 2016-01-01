@@ -1,17 +1,14 @@
 <ion-view view-title="Profile">
 <ion-content>
-  <div class="list card">
-  <div class="item item-avatar">
-    <img src="">
-    <h2></h2>
-    <p></p>
+  <div class="list card" ng-model="players">
+  <div class="item item-thumbnail-left">
+    <img ng-src="../img/{{ players[whichItem].shortname }}.jpeg" alt="{{ players[whichItem].name }}" />
+    <h2>{{players[whichItem].name}}</h2>
+    <p>{{players[whichItem].position}}</p>
   </div>
 
   <div class="item item-body">
-    <img class="full-image" src="">
-    <p>
-
-    </p>
+    <p>{{players[whichItem].bio}}</p>
     <p>
       <a href="#" class="subdued">1 Like</a>
       <a href="#" class="subdued">5 Comments</a>

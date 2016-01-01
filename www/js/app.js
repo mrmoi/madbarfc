@@ -33,13 +33,13 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-
+// profile state /:playerId
   .state('app.profile', {
-    url: '/profile',
+    url: '/profile/:playerId',
     views: {
       'menuContent': {
         templateUrl: 'templates/profile.html',
-        controller: 'PlayersController'
+        controller: 'ProfileController'
       }
     }
   })
