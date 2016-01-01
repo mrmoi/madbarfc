@@ -9874,3 +9874,29 @@ a div {
   overflow: hidden;
   padding-top: 50px;
   padding-bottom: 50px; }
+
+.custom {
+  background-color: transparent; }
+  .custom .item {
+    background-color: rgba(0, 46, 64, 0.6);
+    border: none;
+    border-top: 1px solid;
+    border-bottom: 2px solid;
+    border-color: #666;
+    color: #FA9600;
+    font-weight: bold;
+    font-family: 'Lobster', sans-serif;
+    font-size: 1.3em; }
+  .custom .item:hover {
+    background-color: #002E40;
+    border: none;
+    border-top: 1px solid;
+    border-bottom: 2px solid;
+    border-color: #666;
+    color: #FA9600; }
+
+.custom .item:last-child {
+  border-bottom: 2px solid #666; }
+
+.custom .item-complex .item-content, .dark .item-radio .item-content {
+  background-color: transparent; }
