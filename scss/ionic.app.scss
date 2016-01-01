@@ -111,28 +111,53 @@ $bird: #FA9600 !default;
 .searchItem {
   background-color: $grey;
 }
-.popup {
-  width: 500px;
-  height: 400px;
-  background-color: $bird;
-  color: $bird;
-}
-.popup button {
-  top: 290px;
-  z-index: 1;
-}
-.popupContent {
-  background-color: $offwhite;
-}
-.inside {
 
-}
+// PROFILE STYLES
 .playerCard {
-  height: 400px;
-  width: 400px;
-  margin: 0 auto;
+  background-color: $grey;
+
+  h2 {
+    font-family: 'Vollkorn', sans-serif;
+    color: $navy;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  p {
+    font-family: 'Kanit', monospace;
+    color: $orange;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 1.3em;
+  }
+
 }
 
+.playerCardBody {
+  background-color: $offwhite;
+
+  h2 {
+    font-family: 'Vollkorn', sans-serif;
+    color: $navy;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  p {
+    font-family: 'Roboto', monospace;
+    color: black;
+    font-size: 1.0em;
+  }
+
+  a{
+    font-family: 'Roboto', monospace;
+    color: $orange;
+    font-size: 1.0em;
+  }
+
+}
 
 // FIXTURES STYLES
 // fixtures calendar styles
