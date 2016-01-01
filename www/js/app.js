@@ -34,12 +34,12 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
-  .state('app.players.profile', {
-    url: '/players/profile',
+  .state('app.profile', {
+    url: '/profile',
     views: {
       'menuContent': {
-        templateUrl: '../templates/profile.html',
-        controller: 'ProfileController'
+        templateUrl: 'templates/profile.html',
+        controller: 'PlayersController'
       }
     }
   })
