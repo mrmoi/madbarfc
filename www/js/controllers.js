@@ -60,8 +60,8 @@ angular.module('starter.controllers', [])
     $scope.images = [];
 
     $scope.loadImages = function() {
-        for(var i = 0; i < 100; i++) {
-            $scope.images.push({id: i, src: "http://placehold.it/50x5"});
+        for(var i = 0; i < 32; i++) {
+            $scope.images.push({id: i, src: "http://placehold.it/140x100"});
         }
     };
   })
