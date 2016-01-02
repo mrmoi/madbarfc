@@ -8,8 +8,6 @@
         "likes" : 0,
         "country" : "uy",
         "nationality" : "Uruguay",
-        "foot" : "Right",
-        "marketValue" : 15,
         "squadNumber" : 7
     },
     {
@@ -19,7 +17,9 @@
         "position" : "defender",
         "bio" : "I'm attracted to soccer's capacity for beauty. When well played, the game is a dance with a ball.",
         "likes" : 0,
-        "country" : "us"
+        "country" : "us",
+        "nationality" : "United States",
+        "squadNumber" : 2
     },
     {
         "id": 3,
@@ -28,7 +28,9 @@
         "position" : "midfielder",
         "bio" : "I like tricks; I like to dazzle. Dribbling and leaving your opponent on his backside is what life is for. If I achieve what I want to, then I'll mark a distinct era in football. I'm the Che Guevara of modern soccer.",
         "likes" : 0,
-        "country" : "mx"
+        "country" : "mx",
+        "nationality" : "Mexico",
+        "squadNumber" : 12
     },
     {
         "id": 4,
@@ -37,7 +39,9 @@
         "position" : "midfielder",
         "bio" : "Soccer is simple, but it is difficult to play simple.",
         "likes" : 0,
-        "country" : "co"
+        "country" : "co",
+        "nationality" : "Colombia",
+        "squadNumber" : 8
     },
     {
         "id": 5,
@@ -46,7 +50,9 @@
         "position" : "defender",
         "bio" : "For me soccer provides so many emotions, a different feeling every day. I've had the good fortune to take part in major competitions like the Olympics, and winning the World Cup was also unforgettable. We lost in the Olympics and won in the World Cup, and I'll never forget either feeling.",
         "likes" : 0,
-        "country" : "mx"
+        "country" : "mx",
+        "nationality" : "Mexico",
+        "squadNumber" : 6
     },
     {
         "id": 6,
@@ -55,7 +61,9 @@
         "position" : "forward",
         "bio" : "Every soccer player can be on the edge, at the limit, be the bad guy. We have to get used to it. Sometimes I am one of those.",
         "likes" : 0,
-        "country" : "mx"
+        "country" : "mx",
+        "nationality" : "Mexico",
+        "squadNumber" : 11
     },
     {
         "id" : 7,
@@ -64,6 +72,8 @@
         "position" : "forward",
         "bio" : "I always think that I would have become an actor if I hadn't been a soccer player.",
         "likes" : 0,
-        "country" : "mx"
+        "country" : "mx",
+        "nationality" : "Mexico",
+        "squadNumber" : 9
     }
 ]

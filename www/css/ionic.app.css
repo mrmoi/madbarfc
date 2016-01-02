@@ -9805,7 +9805,7 @@ ion-content {
     font-family: 'Roboto', monospace;
     color: #002E40;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 14px;
     line-height: normal; }
 
 .playerCardBody {
@@ -9824,6 +9824,11 @@ ion-content {
     font-family: 'Roboto', monospace;
     color: #ff5722;
     font-size: 1.0em; }
+
+.flagPosition {
+  position: fixed;
+  top: 8px;
+  left: 295px; }
 
 .divider-fixture-top {
   background-color: #002E40;
@@ -9901,9 +9906,8 @@ a div {
 .custom .item-complex .item-content, .dark .item-radio .item-content {
   background-color: transparent; }
 
-.likes,
-.dislikes {
-  background: #F65A5B;
+.likes {
+  background: #002E40;
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -9912,16 +9916,15 @@ a div {
   min-width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin: 0 -30px 0 40px;
+  margin-left: 155px;
   text-align: center;
   font-weight: 200;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: background 500ms; }
 
-.likes:hover,
-.dislikes:hover {
-  color: #F65A5B;
-  background: rgba(246, 90, 91, 0.25);
+.likes:hover {
+  color: #002E40;
+  background: rgba(91, 90, 246, 0.25);
   transition: background 500ms; }
 
 .flag {

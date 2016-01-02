@@ -5,31 +5,23 @@
     <img ng-src="../img/{{ players[whichItem].shortname }}.jpeg" alt="{{ players[whichItem].name }}" />
     <h2>{{players[whichItem].name}}</h2>
     <p>Position: {{players[whichItem].position}}</p>
-    <p>Nationality: {{players[whichItem].nationality}}</p>
+    <p class="flagParagraph">Nationality: {{players[whichItem].nationality}}</p>
     <p>Squad Number: {{players[whichItem].squadNumber}}</p>
+    <div class="flagPosition">
+      <img src="../img/blank.png" class="flag flag-{{players[whichItem].country}}"/>
+    </div>
   </div>
 
   <div class="item item-body playerCardBody">
     <p>{{players[whichItem].bio}}</p>
-    <p>
-      <a href="#" class="subdued likes">{{players[whichItem].likes}}</a>
-      <a href="#" class="subdued"></a>
-    </p>
+    <!--<a href="#" class="subdued likes">{{players[whichItem].likes}}</a>-->
   </div>
 
   <div class="item tabs tabs-secondary tabs-icon-left item-dark">
-    <a class="tab-item" ng-click="likeOne($index)">
+    <!--<a class="tab-item" ng-click="likeOne($index)">
       <i class="icon ion-thumbsup"></i>
       Like
-    </a>
-    <!--<a class="tab-item" href="#">
-      <i class="icon ion-chatbox"></i>
-      Comment
     </a>-->
-    <a class="tab-item" href="#">
-      <i class="icon ion-share"></i>
-      Share
-    </a>
   </div>
 
 </div>
