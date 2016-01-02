@@ -4,8 +4,9 @@
   <div class="item item-thumbnail-left playerCard">
     <img ng-src="../img/{{ players[whichItem].shortname }}.jpeg" alt="{{ players[whichItem].name }}" />
     <h2>{{players[whichItem].name}}</h2>
-    <p>{{players[whichItem].position}}</p>
-    <img class="flag flag-{{players[whichItem].country}}"/>
+    <p>Position: {{players[whichItem].position}}</p>
+    <p>Nationality: {{players[whichItem].nationality}}</p>
+    <p>Squad Number: {{players[whichItem].squadNumber}}</p>
   </div>
 
   <div class="item item-body playerCardBody">

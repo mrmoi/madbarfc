@@ -117,19 +117,19 @@ $bird: #FA9600 !default;
   background-color: $grey;
 
   h2 {
-    font-family: 'Vollkorn', sans-serif;
-    color: $navy;
+    font-family: 'Kanit', sans-serif;
+    color: $orange;
     font-size: 1.2em;
-    font-weight: bold;
-    padding-top: 20px;
+    font-weight: 700;
+    padding-top: 5px;
   }
 
   p {
-    font-family: 'Kanit', monospace;
-    color: $orange;
-    font-weight: bold;
-    padding-top: 5px;
-    font-size: 1.3em;
+    font-family: 'Roboto', monospace;
+    color: $navy;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: normal;
   }
 
 }

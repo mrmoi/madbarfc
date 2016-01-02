@@ -9796,17 +9796,17 @@ ion-content {
 .playerCard {
   background-color: #cfd8dc; }
   .playerCard h2 {
-    font-family: 'Vollkorn', sans-serif;
-    color: #002E40;
-    font-size: 1.2em;
-    font-weight: bold;
-    padding-top: 20px; }
-  .playerCard p {
-    font-family: 'Kanit', monospace;
+    font-family: 'Kanit', sans-serif;
     color: #ff5722;
-    font-weight: bold;
-    padding-top: 5px;
-    font-size: 1.3em; }
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-top: 5px; }
+  .playerCard p {
+    font-family: 'Roboto', monospace;
+    color: #002E40;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: normal; }
 
 .playerCardBody {
   background-color: #f5f5f5; }

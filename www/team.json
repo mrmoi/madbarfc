@@ -6,7 +6,11 @@
         "position": "midfielder",
         "bio" : "What I do is play soccer, which is what I like.",
         "likes" : 0,
-        "country" : "uy"
+        "country" : "uy",
+        "nationality" : "Uruguay",
+        "foot" : "Right",
+        "marketValue" : 15,
+        "squadNumber" : 7
     },
     {
         "id": 2,
