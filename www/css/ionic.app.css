@@ -9861,6 +9861,22 @@ ion-content {
   background-color: rgba(12, 179, 243, 0.4);
   font-family: 'Sansita One', sans-serif; }
 
+.detailCard {
+  background-color: #cfd8dc; }
+  .detailCard p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #ff5722; }
+
+.detailCardBody {
+  line-height: 1.0em; }
+  .detailCardBody span {
+    color: black;
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold; }
+
 .heading {
   font-family: 'Sansita One', sans-serif;
   font-size: 3.2em;

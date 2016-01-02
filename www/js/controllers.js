@@ -49,6 +49,13 @@ angular.module('starter.controllers', [])
   });
 })
 
+.controller('DetailsController', function($scope, $http, $stateParams) {
+    $http.get('fixtures.json').success(function(data) {
+    $scope.fixtures = data;
+    $scope.whichItem = $stateParams.fixtureId;
+  });
+})
+
 // Standings controller
 .controller('StandingsController', function($scope, $http) {
     $http.get('standings.json').success(function(data) {

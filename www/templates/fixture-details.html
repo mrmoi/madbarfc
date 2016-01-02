@@ -1,0 +1,29 @@
+<ion-view view-title="Fixture Details">
+<ion-content>
+  <div class="list card" ng-model="fixtures">
+  <div class="item item-header detailCard">
+
+    <p>Week {{fixtures[whichItem].id}}</p>
+  </div>
+
+  <div class="item item-body detailCardBody">
+    <p><span>Opponent:</span> {{fixtures[whichItem].opponent}}</p>
+    <p><span>Time:</span> {{fixtures[whichItem].time}}</p>
+    <p><span>Date:</span> {{fixtures[whichItem].date}}</p>
+    <p><span>Result:</span> {{fixtures[whichItem].result}}</p>
+    <p><span>Division:</span> {{fixtures[whichItem].division}}</p>
+    <p><span>Field:</span> {{fixtures[whichItem].field}}</p>
+    <p><span>Location:</span> {{fixtures[whichItem].location}}</p>
+    <!--<a href="#" class="subdued likes">{{players[whichItem].likes}}</a>-->
+  </div>
+
+  <div class="item tabs tabs-secondary tabs-icon-left item-dark">
+    <!--<a class="tab-item" ng-click="likeOne($index)">
+      <i class="icon ion-thumbsup"></i>
+      Like
+    </a>-->
+  </div>
+
+</div>
+</ion-content>
+</ion-view>

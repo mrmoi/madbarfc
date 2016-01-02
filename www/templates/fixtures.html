@@ -4,7 +4,7 @@
 
       <div ng-repeat="fixture in fixtures">
         <div class="item item-divider divider-fixture-top">{{fixture.name }}</div>
-          <a class="item divider-fixture-bottom" href="#">
+          <a class="item divider-fixture-bottom" ng-href="#/app/fixture-details/{{fixtures.indexOf(fixture)}}">
             <div class="row">
               <div class="col col-50"><span class="fixOpponent">{{fixture.opponent}}</span></div>
               <div class="col">{{fixture.time}}</div>

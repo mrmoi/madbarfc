@@ -4,48 +4,76 @@
         "name": "Week 1",
         "opponent": "Thunderbird",
         "time": "8:40 PM",
-        "date" : "DEC 1"
+        "date" : "DEC 1",
+        "result" : "Loss 6 - 2",
+        "division" : "Div 1",
+        "field" : "2",
+        "location" : "Sunnyslope"
     },
     {
         "id": 2,
         "name": "Week 2",
         "opponent": "FC Savages",
         "time" : "7:50 PM",
-        "date" : "DEC 8"
+        "date" : "DEC 8",
+        "result" : "Loss 2 - 4",
+        "division" : "Div 1",
+        "field" : "2",
+        "location" : "Sunnyslope"
     },
     {
         "id": 3,
         "name": "Week 3",
         "opponent": "West Valley FC",
         "time" : "8:40 PM",
-        "date" : "DEC 15"
+        "date" : "DEC 15",
+        "result" : "Win 3 - 8",
+        "division" : "Div 1",
+        "field" : "1",
+        "location" : "Sunnyslope"
     },
     {
         "id": 4,
         "name": "Week 4",
         "opponent": "Panic FC",
         "time" : "7:50 PM",
-        "date" : "JAN 5"
+        "date" : "JAN 5",
+        "result" : "",
+        "division" : "Div 1",
+        "field" : "1",
+        "location" : "Roadrunner Park"
     },
     {
         "id": 5,
         "name": "Week 5",
         "opponent": "Illmatic FC",
         "time" : "8:40 PM",
-        "date" : "JAN 12"
+        "date" : "JAN 12",
+        "result" : "",
+        "division" : "Div 1",
+        "field" : "1",
+        "location" : "Roadrunner Park"
     },
     {
         "id": 6,
         "name": "Week 6",
         "opponent": "TBA",
         "time" : "TBA",
-        "date" : "TBA"
+        "date" : "TBA",
+        "result" : "",
+        "division" : "Div 1",
+        "field" : "1",
+        "location" : "Roadrunner Park"
     },
     {
         "id" : 7,
         "name": "Week 7",
         "opponent": "TBA",
         "time" : "TBA",
-        "date" : "TBA"
+        "date" : "TBA",
+        "result" : "",
+        "division" : "Div 1",
+        "field" : "1",
+        "location" : "Roadrunner Park"
     }
 ]

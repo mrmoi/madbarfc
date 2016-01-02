@@ -63,6 +63,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
+    // profile state /:playerId
+      .state('app.fixture-details', {
+        url: '/fixture-details/:fixtureId',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/fixture-details.html',
+            controller: 'DetailsController'
+          }
+        }
+      })
+
     .state('app.history', {
       url: '/history',
       views: {

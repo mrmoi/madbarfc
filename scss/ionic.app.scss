@@ -199,6 +199,28 @@ $bird: #FA9600 !default;
   font-family: 'Sansita One', sans-serif;
 }
 
+.detailCard {
+  background-color: $grey;
+
+  p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: $orange;
+  }
+}
+
+.detailCardBody {
+  line-height: 1.0em;
+
+  span {
+    color: black;
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+}
 // EXTRAS
 .heading {
   font-family: 'Sansita One', sans-serif;
