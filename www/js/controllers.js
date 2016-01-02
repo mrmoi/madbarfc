@@ -56,6 +56,16 @@ angular.module('starter.controllers', [])
   });
 })
 
+.controller('GalleryController', function($scope) {
+    $scope.images = [];
+
+    $scope.loadImages = function() {
+        for(var i = 0; i < 100; i++) {
+            $scope.images.push({id: i, src: "http://placehold.it/50x5"});
+        }
+    };
+  })
+
 // Standings controller
 .controller('StandingsController', function($scope, $http) {
     $http.get('standings.json').success(function(data) {
@@ -71,7 +81,5 @@ angular.module('starter.controllers', [])
     $scope.likeOne = function(index) {
       $scope.players.likes += 1;
     };
-
-
-});
+  });
 });

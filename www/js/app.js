@@ -108,8 +108,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: '/gallery',
       views: {
         'menuContent': {
-          templateUrl: 'templates/gallery.html'
-          //controller: 'PlaylistsCtrl'
+          templateUrl: 'templates/gallery.html',
+          controller: 'GalleryController'
         }
       }
     })
