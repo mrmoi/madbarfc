@@ -5,18 +5,19 @@
     <img ng-src="../img/{{ players[whichItem].shortname }}.jpeg" alt="{{ players[whichItem].name }}" />
     <h2>{{players[whichItem].name}}</h2>
     <p>{{players[whichItem].position}}</p>
+    <img class="flag flag-{{players[whichItem].country}}"/>
   </div>
 
   <div class="item item-body playerCardBody">
     <p>{{players[whichItem].bio}}</p>
     <p>
-      <a href="#" class="subdued"></a>
+      <a href="#" class="subdued likes">{{players[whichItem].likes}}</a>
       <a href="#" class="subdued"></a>
     </p>
   </div>
 
   <div class="item tabs tabs-secondary tabs-icon-left item-dark">
-    <a class="tab-item" href="#">
+    <a class="tab-item" ng-click="likeOne($index)">
       <i class="icon ion-thumbsup"></i>
       Like
     </a>

@@ -61,6 +61,10 @@ angular.module('starter.controllers', [])
     $scope.players = data;
     $scope.whichItem = $stateParams.playerId;
 
+    $scope.likeOne = function(index) {
+      $scope.players[index].likes += 1;
+    };
+
 
 });
 });
