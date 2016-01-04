@@ -56,16 +56,21 @@ angular.module('starter.controllers', [])
   });
 })
 
-.controller('GalleryController', function($scope) {
-    $scope.images = [];
+.controller('GalleryController', function($scope, $http) {
+    //$scope.images = [];
+
+    $http.get('images.json').success(function(data) {
+      $scope.images = data;
+    });
 
     $scope.loadImages = function() {
-        for(var i = 0; i < 32; i++) {
-            $scope.images.push({id: i, src:"http://placehold.it/350x150"});
+        for(var i = 0; i < 8; i++) {
+            $scope.images.push({id: i, src:""});
         }
     };
   })
 
+//http://placehold.it/350x150  www/img
 // Standings controller
 .controller('StandingsController', function($scope, $http) {
     $http.get('standings.json').success(function(data) {
