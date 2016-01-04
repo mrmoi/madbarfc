@@ -9884,6 +9884,21 @@ ion-content {
   vertical-align: top;
   margin-bottom: 15px; }
 
+.customCard {
+  background: #002E40;
+  color: #ff5722;
+  font-size: 1.3em;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background 500ms; }
+
+.customCard:hover {
+  color: #002E40;
+  background: rgba(91, 90, 246, 0.25);
+  transition: background 500ms; }
+
 .heading {
   font-family: 'Sansita One', sans-serif;
   font-size: 3.2em;

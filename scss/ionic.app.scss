@@ -231,6 +231,23 @@ $bird: #FA9600 !default;
     margin-bottom: 15px;
 }
 
+// news card styles {
+.customCard {
+  background: $navy ;
+  color: $orange;
+  font-size: 1.3em;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: background 500ms;
+}
+
+.customCard:hover {
+   color: $navy ;
+   background: rgba(91, 90, 246, 0.25);
+   transition: background 500ms;
+}
 
 // EXTRAS
 .heading {
