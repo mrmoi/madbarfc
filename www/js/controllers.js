@@ -62,13 +62,7 @@ angular.module('starter.controllers', [])
     $http.get('images.json').success(function(data) {
       $scope.images = data;
     });
-
-    $scope.loadImages = function() {
-        for(var i = 0; i < 8; i++) {
-            $scope.images.push({id: i, src:""});
-        }
-    };
-  })
+})
 
 //http://placehold.it/350x150  www/img
 // Standings controller
