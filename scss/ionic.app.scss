@@ -24,6 +24,12 @@ $dark: #002E40 !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 // background gradient
+ion-nav-view {
+  max-width: 400px;
+}
+ion-view {
+  max-width: 400px;
+}
 ion-content {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f6f8+17,b5c6d0+38,a8b4bf+55,a8b4bf+57,b5c6d0+72,e0eff9+94 */
 background: #f2f6f8; /* Old browsers */
@@ -31,7 +37,7 @@ background: -moz-linear-gradient(-45deg,  #f2f6f8 17%, #b5c6d0 38%, #a8b4bf 55%,
 background: -webkit-linear-gradient(-45deg,  #f2f6f8 17%,#b5c6d0 38%,#a8b4bf 55%,#a8b4bf 57%,#b5c6d0 72%,#e0eff9 94%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(135deg,  #f2f6f8 17%,#b5c6d0 38%,#a8b4bf 55%,#a8b4bf 57%,#b5c6d0 72%,#e0eff9 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+  max-width: 400px;
 
 }
 // my colors
